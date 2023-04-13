@@ -1,7 +1,12 @@
 import React from 'react'
+import { View,Text,StyleSheet } from 'react-native';
 
-export default function StylingArea() {
+ function StylingArea() {
   return (
-    <div>StylingArea</div>
+    <View>
+      <Text>StylingArea</Text>
+    </View>
   )
 }
+
+export default StylingArea;

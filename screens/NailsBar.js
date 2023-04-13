@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { Text,View,StyleSheet } from 'react-native';
 
  function NailsBar() {
   return (
-    <div>NailsBar</div>
+     <View>
+      <Text>NailsBar</Text>
+     </View>
   )
 }
+
+export default NailsBar;
 
